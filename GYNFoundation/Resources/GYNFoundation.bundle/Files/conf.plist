@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>base</key>
+	<dict>
+		<key>item1</key>
+		<string>http://teso.nyg.com/chk</string>
+		<key>item2</key>
+		<string>https://eso.nyg.com/chk</string>
+	</dict>
+	<key>stat</key>
+	<dict>
+		<key>item1</key>
+		<string>http://tdata.nyg.com/stat/data</string>
+		<key>item2</key>
+		<string>http://data.nyg.com/stat/data</string>
+	</dict>
+	<key>notify</key>
+	<dict>
+		<key>item1</key>
+		<string>http://42.62.77.156:9866/api/vfy</string>
+		<key>item2</key>
+		<string>http://dot.pay.com/api/vfy</string>
+	</dict>
+</dict>
+</plist>
