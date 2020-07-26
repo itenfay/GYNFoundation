@@ -5,7 +5,7 @@ If this project can help you, please give it [a star](https://github.com/dgynfi/
 
 ## GYNFoundation
 
-It provides a foundataion framework, including HTTP network request, data statistics, foundataion classes, extensions, loading animation.
+`GYNFoundation` provides a foundataion framework, including HTTP network request, data statistics, foundataion classes, extensions, loading animation, and so on.
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
 
@@ -20,7 +20,7 @@ It provides a foundataion framework, including HTTP network request, data statis
 ## Modules and Members
 
 | Modules | Members |
-| :---: | :---: | 
+| :---: | :--- | 
 | Base | GYNBasicConfiguration.swift <br> GYNDefines.swift <br> GYNDevice.swift <br> GYNLogger.swift <br> GYNProduct.swift <br> GYNSettings.swift <br> GYNUser.swift <br> GYNUtils.swift |
 | DC | GYNData.swift <br> GYNDataGA.swift <br> GYNDataGAReporter.swift <br> GYNDataUtils.swift |
 | Network | GYNHttpClient.swift |
@@ -30,7 +30,7 @@ It provides a foundataion framework, including HTTP network request, data statis
 
 ## Demo
 
-`GYNFoundation` is learned how to use under this [Demo](https://github.com/dgynfi/GYNFoundation/blob/master/GYNFoundation)
+`GYNFoundation` is learned how to use under this [Demo](https://github.com/dgynfi/GYNFoundation/blob/master/GYNFoundation).
 
 
 ## Feedback is welcome
