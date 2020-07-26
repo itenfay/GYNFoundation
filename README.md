@@ -20,7 +20,7 @@ If this project can help you, please give it [a star](https://github.com/dgynfi/
 ## Modules and Members
 
 | Modules | Members |
-| :---: | :--- | 
+| :--- | :--- | 
 | Base | GYNBasicConfiguration.swift <br> GYNDefines.swift <br> GYNDevice.swift <br> GYNLogger.swift <br> GYNProduct.swift <br> GYNSettings.swift <br> GYNUser.swift <br> GYNUtils.swift |
 | DC | GYNData.swift <br> GYNDataGA.swift <br> GYNDataGAReporter.swift <br> GYNDataUtils.swift |
 | Network | GYNHttpClient.swift |
