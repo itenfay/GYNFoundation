@@ -24,7 +24,6 @@
 		14E4CA9B247310B900603B95 /* GYNUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4CA91247310B800603B95 /* GYNUtils.swift */; };
 		14E4CA9C247310B900603B95 /* GYNBasicConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4CA92247310B800603B95 /* GYNBasicConfiguration.swift */; };
 		14E4CA9D247310B900603B95 /* GYNDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4CA93247310B800603B95 /* GYNDevice.swift */; };
-		14E4CA9E247310B900603B95 /* GYNProgressHud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4CA94247310B800603B95 /* GYNProgressHud.swift */; };
 		14E4CA9F247310B900603B95 /* GYNUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4CA95247310B800603B95 /* GYNUser.swift */; };
 		14E4CAA4247310D600603B95 /* GYNDataGAReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4CAA0247310D500603B95 /* GYNDataGAReporter.swift */; };
 		14E4CAA5247310D600603B95 /* GYNData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4CAA1247310D600603B95 /* GYNData.swift */; };
@@ -55,7 +54,6 @@
 		14E4CA91247310B800603B95 /* GYNUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYNUtils.swift; sourceTree = "<group>"; };
 		14E4CA92247310B800603B95 /* GYNBasicConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYNBasicConfiguration.swift; sourceTree = "<group>"; };
 		14E4CA93247310B800603B95 /* GYNDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYNDevice.swift; sourceTree = "<group>"; };
-		14E4CA94247310B800603B95 /* GYNProgressHud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYNProgressHud.swift; sourceTree = "<group>"; };
 		14E4CA95247310B800603B95 /* GYNUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYNUser.swift; sourceTree = "<group>"; };
 		14E4CAA0247310D500603B95 /* GYNDataGAReporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYNDataGAReporter.swift; sourceTree = "<group>"; };
 		14E4CAA1247310D600603B95 /* GYNData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYNData.swift; sourceTree = "<group>"; };
@@ -139,7 +137,6 @@
 				14E4CA93247310B800603B95 /* GYNDevice.swift */,
 				14E4CA8E247310B700603B95 /* GYNLogger.swift */,
 				14E4CA8F247310B700603B95 /* GYNProduct.swift */,
-				14E4CA94247310B800603B95 /* GYNProgressHud.swift */,
 				14E4CA90247310B800603B95 /* GYNSettings.swift */,
 				14E4CA95247310B800603B95 /* GYNUser.swift */,
 				14E4CA91247310B800603B95 /* GYNUtils.swift */,
@@ -283,7 +280,6 @@
 				14E4CA9F247310B900603B95 /* GYNUser.swift in Sources */,
 				14E4CA98247310B900603B95 /* GYNLogger.swift in Sources */,
 				14E4CA99247310B900603B95 /* GYNProduct.swift in Sources */,
-				14E4CA9E247310B900603B95 /* GYNProgressHud.swift in Sources */,
 				14E4CA792473092800603B95 /* DYFExtensions.swift in Sources */,
 				14E4CA9A247310B900603B95 /* GYNSettings.swift in Sources */,
 				14378D532478525200F81466 /* DYFIndefiniteAnimatedSpinner.swift in Sources */,

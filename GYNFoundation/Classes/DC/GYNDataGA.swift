@@ -1,7 +1,7 @@
 //
 //  GYNDataGA.swift
 //
-//  Created by dyf on 16/2/4.
+//  Created by dyf on 16/2/4. ( https://github.com/dgynfi/GYNFoundation )
 //  Copyright © 2016 dyf. All rights reserved.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy

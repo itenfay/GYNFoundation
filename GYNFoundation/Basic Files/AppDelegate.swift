@@ -1,7 +1,7 @@
 //
 //  AppDelegate.swift
 //
-//  Created by dyf on 16/2/3.
+//  Created by dyf on 16/2/3. ( https://github.com/dgynfi/GYNFoundation )
 //  Copyright © 2016 dyf. All rights reserved.
 //
 

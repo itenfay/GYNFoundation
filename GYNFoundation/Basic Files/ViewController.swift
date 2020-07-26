@@ -1,7 +1,7 @@
 //
 //  ViewController.swift
 //
-//  Created by dyf on 16/2/3.
+//  Created by dyf on 16/2/3. ( https://github.com/dgynfi/GYNFoundation )
 //  Copyright © 2016 dyf. All rights reserved.
 //
 
@@ -82,7 +82,7 @@ class ViewController: UIViewController {
     }
     
     @objc func printData(_ button: UIButton) {
-        self.showLoading("正在打印数据...")
+        self.showLoading("Printing data...")
         
         GYNProduct.name = "60 Coins"
         GYNProduct.price = GYNUtils.number(withDouble: 6.0)
@@ -155,7 +155,7 @@ class ViewController: UIViewController {
                 }
             }
         }
-         */
+        */
         
         self.execute()
     }
