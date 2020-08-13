@@ -27,13 +27,7 @@ import UIKit
 
 class GYNData: NSObject, GYNDataGAReporterDelegate {
     
-    private struct Inner {
-        static let instance = GYNData()
-    }
-    
-    open class var shared: GYNData {
-        return Inner.instance
-    }
+    public static let shared = GYNData()
     
     var version: String {
         return "3.0.2"
