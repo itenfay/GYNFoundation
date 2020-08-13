@@ -27,31 +27,14 @@ import UIKit
 
 open class GYNSettings: NSObject {
     
-    /// Struct: Static
-    private struct Static {
-        static var instance: GYNSettings? = nil
-    }
+    /// Instantiates a `GYNSettings` singleton.
+    public static let `default` = GYNSettings()
     
-    /// `default`
-    open class var `default`: GYNSettings {
-        
-        objc_sync_enter(self)
-        defer { objc_sync_exit(self) }
-        
-        guard let instance = Static.instance else {
-            let object = GYNSettings()
-            Static.instance = object
-            return object
-        }
-        
-        return instance
-    }
-    
-    /// Instantiates a singleton instance.
+    /// Instantiates a `GYNSettings` singleton.
     ///
     /// - Returns: An `GYNSettings` instance.
-    open class func defaultSettings() -> GYNSettings {
-        return GYNSettings.self.default
+    public class func defaultSettings() -> GYNSettings {
+        return GYNSettings.default
     }
     
     /// Whether debugging environment.
@@ -60,7 +43,7 @@ open class GYNSettings: NSObject {
     public var enabledLog: Bool = false
     
     /// Instantiates an `GYNBasicConfiguration` instance.
-    open var basicConf = GYNBasicConfiguration()
+    public var basicConf = GYNBasicConfiguration()
     
     private override init() {
         // Override init.
