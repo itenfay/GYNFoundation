@@ -31,11 +31,11 @@ open class GYNBasicConfiguration: NSObject {
     open var cpID: String?
     /// The name for a partner.
     open var cpName: String?
-    /// The identifier for a app.
+    /// The identifier for an app.
     open var appID: String?
     
     /// The name for a app.
-    open var appName: String? {
+    open var appName: String! {
         
         let dic: NSDictionary = Bundle.main.infoDictionary! as NSDictionary
         var name = dic.value(forKey: "CFBundleDisplayName") as? String
