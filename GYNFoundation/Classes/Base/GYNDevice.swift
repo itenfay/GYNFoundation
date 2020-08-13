@@ -24,26 +24,30 @@
 //
 
 import UIKit
-import AdSupport
 
-public func isAdTrackingEnabled() -> Bool {
-    // "Build Settings" -> "Swift Compliler-Custom Flags" ->
-    // "Other Swift Flags" -> "Debug", add "-D DEBUG" "-D GYN_USING_ADSUPPORT"
-    //                     -> “Release”, add "-D GYN_USING_ADSUPPORT"
-    // You decides whether to use AdSupport.
 #if GYN_USING_ADSUPPORT
-    return ASIdentifierManager.shared().isAdvertisingTrackingEnabled
-#else
-    return false
+import AdSupport
 #endif
+
+/// You decides whether to use AdSupport.
+///
+/// "Build Settings"    -> "Swift Compliler-Custom Flags" ->
+/// "Other Swift Flags" -> "Debug", add "-D DEBUG" "-D GYN_USING_ADSUPPORT"
+///                     -> “Release”, add "-D GYN_USING_ADSUPPORT"
+public func isAdTrackingEnabled() -> Bool {
+    #if GYN_USING_ADSUPPORT
+    return ASIdentifierManager.shared().isAdvertisingTrackingEnabled
+    #else
+    return false
+    #endif
 }
 
 public func idfa() -> String? {
-#if GYN_USING_ADSUPPORT
+    #if GYN_USING_ADSUPPORT
     return ASIdentifierManager.shared().advertisingIdentifier.uuidString
-#else
+    #else
     return nil
-#endif
+    #endif
 }
 
 public func idfv() -> String? {
@@ -59,7 +63,7 @@ open class GYNDevice: NSObject {
         
         if #available(iOS 10.0, *) {
             if isAdTrackingEnabled() {
-                uuid = idfa() ?? ""
+                uuid = idfa()
             } else {
                 uuid = idfv()
             }
