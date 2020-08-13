@@ -7,7 +7,7 @@
 
 import UIKit
 
-fileprivate let uid: String = "301452094"
+fileprivate let userId: String = "301452094"
 
 class ViewController: UIViewController {
     
@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         self.view.backgroundColor = UIColor.lightGray
         self.navigationController?.setNavigationBarHidden(true, animated: false)
         
@@ -71,7 +72,7 @@ class ViewController: UIViewController {
         
         let data = GYNKVAdapter()
         
-        data.setValue(uid, forKey: "userId")
+        data.setValue(userId, forKey: "userId")
         data.setValue("DFAfS301452094AfDBfHIHERQ", forKey: "token")
         
         data.setValue(GYNSettings.default.basicConf.appID, forKey: "appId")
@@ -93,7 +94,7 @@ class ViewController: UIViewController {
         adapter.setValue(GYNSettings.default.basicConf.noticeUrl, forKey: "noticeUrl")
         adapter.setValue("74", forKey: "serverId")
         adapter.setValue("The Source Of Power", forKey: "serverName")
-        adapter.setValue(uid, forKey: "userId")
+        adapter.setValue(userId, forKey: "userId")
         adapter.setValue(GYNDataGA.deviceID(), forKey: "deviceId")
         adapter.setValue(GYNEmptyString, forKey: "channelTransId")
         adapter.setValue(GYNSettings.default.basicConf.cpID, forKey: "cpId")
