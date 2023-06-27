@@ -1,7 +1,6 @@
 ***
 
-If this project can help you, please give it [a star](https://github.com/dgynfi/GYNFoundation). Thanks!
-
+If this project can help you, please give it [a star](https://github.com/chenxing640/GYNFoundation). Thanks!
 
 ## GYNFoundation
 
@@ -9,13 +8,11 @@ If this project can help you, please give it [a star](https://github.com/dgynfi/
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE)&nbsp;
 
-
 ## Group (ID:614799921)
 
 <div align=left>
-&emsp; <img src="https://github.com/dgynfi/GYNFoundation/raw/master/images/g614799921.jpg" width="30%" />
+&emsp; <img src="https://github.com/chenxing640/GYNFoundation/raw/master/images/g614799921.jpg" width="30%" />
 </div>
-
 
 ## Modules and Members
 
@@ -27,12 +24,10 @@ If this project can help you, please give it [a star](https://github.com/dgynfi/
 | Utils | DYFExtensions.swift <br> DYFSwiftKeychain.swift|
 | View | DYFIndefiniteAnimatedSpinner.swift <br> DYFLoadingView.swift |
 
-
 ## Demo
 
-`GYNFoundation` is learned how to use under this [Demo](https://github.com/dgynfi/GYNFoundation/blob/master/GYNFoundation).
-
+`GYNFoundation` is learned how to use under this [Demo](https://github.com/chenxing640/GYNFoundation/blob/master/GYNFoundation).
 
 ## Feedback is welcome
 
-If you notice any issue, got stuck or just want to chat feel free to create an issue. I will be happy to help you.
+If you notice any issue, got stuck to create an issue. I will be happy to help you.
